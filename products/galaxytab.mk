@@ -2,6 +2,9 @@ $(call inherit-product, device/samsung/galaxytab/full_galaxytab.mk)
 
 $(call inherit-product, vendor/aokp/configs/common_tablet.mk)
 
+# Inherit GSM common stuff
+$(call inherit-product, vendor/aokp/configs/gsm.mk)
+
 PRODUCT_PACKAGE_OVERLAYS += vendor/aokp/overlay/galaxytab
 
 PRODUCT_NAME := aokp_galaxytab
