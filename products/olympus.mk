@@ -1,12 +1,12 @@
 # Inherit GSM common stuff
 $(call inherit-product, vendor/aokp/configs/gsm.mk)
- 
+
 ## Inherit some common AOKP stuff.
 $(call inherit-product, vendor/aokp/configs/common_phone.mk)
- 
+
 ## Inherit device configuration
-$(call inherit-product, device/motorola/olympus/olympus.mk)
- 
+$(call inherit-product, device/moto/olympus/olympus.mk)
+
 ## Device identifier. This must come after all inclusions
 PRODUCT_NAME := aokp_olympus
 PRODUCT_DEVICE := olympus
