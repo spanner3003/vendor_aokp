@@ -1,4 +1,4 @@
-$(call inherit-product, device/samsung/p1/full_galaxytab.mk)
+$(call inherit-product, device/samsung/p1/full_p1.mk)
 
 $(call inherit-product, vendor/aokp/configs/common_tablet.mk)
 
